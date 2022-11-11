@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.nav {
+    background-color: black;
+}
+.navbar {
+    width: 1080px;
+    margin: 0 auto;
+    color: whitesmoke;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navP {
+    margin-left: 20px;
+}
+.navLinks {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav a {
+    color: lightgray;
+    text-decoration: none;
+}
+.nav a:hover {
+    color:ghostwhite;
+    text-decoration: none;
+    font-style: italic; 
+    font-size: larger;
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 3px 3px grey;
+    border-radius: 2px;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+.panel {
+    display: flex;
+}
+.col, .col2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col2 {
+    flex: 2;
+}
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userCard, .card {
+    width: 100%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.cardHeader {
+    background-color: teal;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.medAvatar {
+    border-radius: 50%;
+    background-color: whitesmoke;
+    height: 190px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cardBody {
+    padding: 20px;
+}
+.cardBody h1,
+.cardBody h2,
+.cardBody h3,
+.cardBody p {
+    margin: 20px 0px;
+}
+.icon {
+    height: 20px;
+}
+a {
+    color: dodgerblue;
+}
+.header {
+    background-color: rgb(55, 55, 55);
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.dates {
+    font-size: 20px;
+    color:grey;
+}
+.connections {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.users {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.list, .response {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.smAvatar {
+    border-radius: 50%;
+    height: 45px;
+    margin-right: 10px;
+}
+.foot {
+    padding: 20px;
+    border-top: 2px solid #999;
+}

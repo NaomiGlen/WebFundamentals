@@ -1,0 +1,24 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    text-align: left;
+}
+
+.cyan {
+    background-color: black;
+    color: cyan;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    background-color: lightblue;
+    text-align: right;
+}
+

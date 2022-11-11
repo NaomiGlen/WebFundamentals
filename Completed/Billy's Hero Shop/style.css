@@ -1,0 +1,33 @@
+.nav {
+    background-color:lightskyblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    .nav a {
+        color: whitesmoke;
+    }
+.shopping-cart {
+    height: 20px;
+}
+#search {
+    border-radius: 20px;
+}
+.main {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+}
+.top-image {
+    width: 100%;
+}
+main > button {
+    background-color: green;
+    color: whitesmoke;
+}

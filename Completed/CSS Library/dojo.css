@@ -1,0 +1,83 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* favorite button style  */
+.btn{
+    background-color: whitesmoke;
+    color: teal;
+    border: 2px solid teal;
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    font-weight: bold;
+    font-family:'Gill Sans';
+    font-size: large;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+    color: whitesmoke;
+}
+.col-2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+    color: whitesmoke;
+}
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+    color: whitesmoke;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: rgb(67, 68, 68);
+    color: ghostwhite;
+    height: 90px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav a {
+    color: rgb(137, 137, 139);
+    text-decoration: none;
+}
+.nav a:hover {
+    color:ghostwhite;
+    text-decoration: none;
+    font-style: italic; 
+    font-size: larger;
+}
+.nav-title{
+    margin-left: 25px;
+}

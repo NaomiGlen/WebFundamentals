@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.navbar {
+    width: 960px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: black;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navD {
+    margin-left: 20px;
+}
+.login {
+    height: 30px;
+    width: 100px;
+    background-color: deepskyblue;
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.login:hover {
+    color: white;
+    font-style: italic;
+    font-size: larger;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+.panel {
+    display: inline-flex;
+}
+.col, .col2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col2 {
+    flex: 2;
+}
+.flex-container {
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.card, .card2 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.card2 {
+    height: 160px;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: dodgerblue;
+}
+.cardDesc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ital {
+    font-style: italic;
+}
+.cardTitle {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.like {
+    width: 100px;
+    height: 40px;
+    background-color:khaki;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+    font-size: 16px;
+}
+.add {
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color:mediumseagreen;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+    font-size: 16px;
+}
